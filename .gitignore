@@ -1,0 +1,13 @@
+# Environment files - NEVER commit your secret keys!
+.env
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*~
+*.bak
+*.swp
+
+# Virtual environment folders
+venv/
+.venv/move .venv\Lib\.gitignore .
